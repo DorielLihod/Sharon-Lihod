@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 import "./MainImage.css";
 import { useTranslation } from "react-i18next";
 
+import MainImgPath from "../../../public/imgMain.jpg";
+
 const MainImage = () => {
   const navigate = useNavigate();
   const [t] = useTranslation("global");
@@ -12,7 +14,7 @@ const MainImage = () => {
 
   return (
     <div className="mainImg">
-      <img className="imgMain" src="/public/imgMain.jpg" />
+      <img className="imgMain" src={MainImgPath} />
       {/* Div of content over the image in the middle */}
       <div className="content">
         <h1 className="headerMain">Quality Solutions</h1>
