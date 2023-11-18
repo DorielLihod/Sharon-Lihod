@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 const MainImage = () => {
   const navigate = useNavigate();
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   const clickButton = () => {
     navigate("/About");

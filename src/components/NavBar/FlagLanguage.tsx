@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import "./FlagLanguage.css";
 
 const FlagLanguage = () => {
-  const [t, i18n] = useTranslation("global");
+  const { i18n } = useTranslation("global");
 
   const handleChangeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);

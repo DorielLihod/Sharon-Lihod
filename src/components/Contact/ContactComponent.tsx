@@ -11,7 +11,7 @@ import { FaSquarePhone } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 
 const ContactComponent = () => {
-  const form = useRef<HTMLInputElement>();
+  const form = useRef<HTMLFormElement>(null);
   const [formValues, setFormValues] = useState({
     firstName: "",
     lastName: "",
@@ -19,47 +19,49 @@ const ContactComponent = () => {
     phone: "",
     message: "",
   });
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   const sendEmail = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_eyd3qrg",
-        "template_rqrqqsa",
-        form.current,
-        "9mwp7GUmqPoWf5Svh"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
+    if (form.current) {
+      emailjs
+        .sendForm(
+          "service_eyd3qrg",
+          "template_rqrqqsa",
+          form.current,
+          "9mwp7GUmqPoWf5Svh"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
 
-          //show message success
-          toast.success("The details have been sent successfully!", {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "light",
-          });
+            //show message success
+            toast.success("The details have been sent successfully!", {
+              position: "top-right",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "light",
+            });
 
-          //clear form
-          setFormValues({
-            firstName: "",
-            lastName: "",
-            email: "",
-            phone: "",
-            message: "",
-          });
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+            //clear form
+            setFormValues({
+              firstName: "",
+              lastName: "",
+              email: "",
+              phone: "",
+              message: "",
+            });
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
   };
 
   return (
@@ -104,7 +106,6 @@ const ContactComponent = () => {
               width="100%"
               height="100%"
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
           <div className="col-sm">

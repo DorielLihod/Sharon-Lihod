@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   const handleNavBar = () => {
     if (isOpen === false) {
