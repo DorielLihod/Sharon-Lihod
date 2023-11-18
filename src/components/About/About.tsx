@@ -30,8 +30,6 @@ const About = () => {
               </div>
             </div>
           </div>
-          
-          </div>
         </div>
         <div className="col-md-6 textAbout">
           <p id="p-id">{t("about-page.p1")}</p>
