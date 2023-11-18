@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import "./About.css";
 import { useTranslation } from "react-i18next";
 
+import sharonImage from "../../../public/imgSharon.jpeg";
+
 const About = () => {
   const [t, i18n] = useTranslation("global");
 
@@ -22,7 +24,7 @@ const About = () => {
             <div className="card-body">
               <div className="divImage">
                 <img
-                  src="public\imgSharon.jpeg"
+                  src={sharonImage}
                   className=" mx-auto d-block sharonImage"
                   alt="Sharon Lihod"
                   title="Sharon Lihod"

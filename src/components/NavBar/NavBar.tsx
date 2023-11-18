@@ -5,6 +5,8 @@ import { AiFillLinkedin } from "react-icons/ai";
 import FlagLanguage from "./FlagLanguage";
 import { useTranslation } from "react-i18next";
 
+import logoPath from "../../../public/logoSharon.png";
+
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [t] = useTranslation("global");
@@ -41,12 +43,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
           <Link to="/">
-            <img
-              src="public\logoSharon.png"
-              alt="Sharon Lihod"
-              width="150"
-              height="150"
-            />
+            <img src={logoPath} alt="Sharon Lihod" width="150" height="150" />
           </Link>
           <button
             className="navbar-toggler"

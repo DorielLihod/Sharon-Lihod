@@ -1,6 +1,9 @@
 import { useTranslation } from "react-i18next";
 import "./FlagLanguage.css";
 
+import israelFlag from "../../../public/icons/israelFlag.png";
+import usaFlag from "../../../public/icons/usaFlag.png";
+
 const FlagLanguage = () => {
   const { i18n } = useTranslation("global");
 
@@ -20,7 +23,7 @@ const FlagLanguage = () => {
     <div className="flag-language">
       {i18n.language === "en" && (
         <img
-          src="public\icons\israelFlag.png"
+          src={israelFlag}
           alt="Hebrew"
           width="45"
           height="45"
@@ -29,7 +32,7 @@ const FlagLanguage = () => {
       )}
       {i18n.language === "he" && (
         <img
-          src="public\icons\usaFlag.png"
+          src={usaFlag}
           alt="English"
           width="45"
           height="45"
