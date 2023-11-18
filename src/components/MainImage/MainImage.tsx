@@ -12,7 +12,7 @@ const MainImage = () => {
 
   return (
     <div className="mainImg">
-      <img className="imgMain" src="./public/imgMain.jpg" />
+      <img className="imgMain" src="/public/imgMain.jpg" />
       {/* Div of content over the image in the middle */}
       <div className="content">
         <h1 className="headerMain">Quality Solutions</h1>
