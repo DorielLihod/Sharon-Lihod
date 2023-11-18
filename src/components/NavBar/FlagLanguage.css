@@ -1,0 +1,8 @@
+.flag-language{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.flag-language :hover {
+    opacity: 80%;
+}

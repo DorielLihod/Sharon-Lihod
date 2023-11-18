@@ -1,0 +1,59 @@
+.sectionDetails {
+    background-color: #caf0f8;
+}
+
+.formContact{
+    padding: 5%;
+}
+
+.buttonSubmit{
+    padding-top: 5%;
+    text-align: center;
+
+}
+
+.btnSubmit{
+    width: 150px;
+    background-color: #004AAD;
+}
+
+.headerForm{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.map-div{
+    text-align: center;
+}
+
+.form-div{
+    padding-top: 30px;
+}
+
+.map{
+    padding: 10px;
+}
+
+.properties{
+    padding: 50px;
+}
+
+.iconProperties{
+    text-align: center;
+    color: #004AAD;
+}
+
+.iconProperties:hover {
+    text-align: center;
+    color: black;
+}
+
+.text-under-icon{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.icon-text{
+    padding-top: 20px;
+}

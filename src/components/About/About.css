@@ -1,0 +1,53 @@
+.MainAbout {
+    margin: auto;
+    width: 80%;
+    padding: auto;
+}
+
+.cardAbout {
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+
+.sharonImage{
+    width: 70%;
+    border-radius: 50% !important;
+    transition: transform .2s; /* Animation */
+}
+.sharonImage:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.textUnderImage{
+    font-size: large;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.divImage{
+    margin-top: 5%;
+    padding: 3%;
+    opacity: 1.0;
+}
+
+
+.textAbout{
+    font-size: large;
+    padding: 4%;
+}
+
+.sectionDetails{
+    background-color: #caf0f8;
+}
+
+.ipcCertification{
+    height: 200px;
+    width: 200px;
+}
+
+.p{
+    text-align: left;
+    align-items: right;
+}
+

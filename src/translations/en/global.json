@@ -1,0 +1,142 @@
+{
+  "navbar": {
+    "about": "About",
+    "experience": "Experience",
+    "ourServices": "Our Services",
+    "Contact": "Contact"
+  },
+  "home-page": {
+    "btn-about": "About us",
+    "sentence": "The way to ensure business activity grows, starts with a stable management quality system"
+  },
+  "about-page": {
+    "p1": "My name is Sharon Lihod, I am Senior Quality Manager, Over 30 years of experience, with proven track record in leading Quality policy, Quality Systems,which comply with global standards.",
+    "p2": "Leading Quality processes in compliance with Aierospace, Automotive, Medical Device, Environment, and IPC standards.",
+    "p3": "Certified Lead Auditor for IATF16949, ISO9001-2015, ISO13485 2016. Experience in international regulation: UL, IPC , REACH, ROHS,CMRT.",
+    "p4": "Certified IPC 610 CIT -Electronic assemblies specialist. IPC6012/6013/ 600 CIS.",
+    "p5": "Experiance with SMT & WAVE soldering Production's processes.",
+    "p6": "Execute external ,and internal Audits, preparing the organization to comply with ISO 9001-2015 standards.",
+    "p7": "Defining corrective and preventive actions,Failures Analysing , Training Employees.",
+    "p8": "Management skills: high performance, proactivity, professional integrity, wide perspective, great communication with people."
+  },
+  "contact": {
+    "fname": "First Name",
+    "lname": "Last Name",
+    "phone": "Phone",
+    "email": "Email address",
+    "message": "Message",
+    "send": "Send",
+    "contact-us": "Contact us",
+    "details1": "Sharon Lihod - SL Quality solutions",
+    "details2": "Phone Number: ",
+    "details3": "Email: ",
+    "details4": "Address: Hankin street 80/3, Afula, Israel"
+  },
+  "experience": {
+    "p1": "The Quality field is a very interesting, challenging , touches every field in the organization, therefore a lot of experience is required to operate an effective quality system in the organization , and it does not matter what the organization deals with.",
+    "p2": "I started my way in the Quality field in the Air Force for 12 years , Period which required discipline, precision , and high level of performance without compromise.",
+    "p3": "In the last 25 years, I have been worked in large organizations in the Israeli industry, I have gained a lot of experience in quality management in a wide variety of fields, establishment of quality management systems, training and induction of employees, performance's improvements , failure's investigations, risk management, supplier's monitoring , supplier's audits in Israel and abroad , preparation of organizations for external autids, and for internal audits , and more...",
+    "p4": "The Major guiding line for me, in managing a quality system, is the PDCA method: PLAN, DO, CHECK, ACT to bring the organization to a state of continuous learning, effective learning, constant correction and improvement , in order to improve and optimize the quality system, and bring the organization to better operational performances throughout time.",
+    "p5": "It is a proven fact that managing an effective quality system, no matter how many people work in the organization ,and whether it is a large or small organization, improves the level of performances of the organization, reduces the costs of non-quality , and improves customer's satisfaction!",
+    "p6": "I would be happy to contribute from my experience in consulting for the management of the quality system in your organization, or in the establishment of a new quality system and assistance in ongoing maintenance, both for the external certification of the certification bodies, or for the needs of improving and streamlining the internal systems."
+  },
+  "our-services": {
+    "ourservices": "Our Services:",
+    "option1": {
+      "header": "ISO 9001-2015",
+      "line1": "Establishment and maintenance quality system in accordance with the requirements of Quality standard of organization's activity.",
+      "line2": "Audit's Coordination with the certification institute.",
+      "line3": "Source inspection"
+    },
+    "option2": {
+      "header": "Regulations",
+      "line1": "Assistance in registration with standardization bodies such as: UL, IPC.",
+      "line2": "Third-party inspections for quality management systems in AS9100  IATF16949  ISO 13485 standards.",
+      "line3": "Characterization of requirements for the SA8000 social responsibility standard.",
+      "line4": "Characterization of an ethical code.",
+      "line5": "Characterization of requirements for the sustainability standard.",
+      "line6": "Activity with third party laboratories to investigate production failures."
+    },
+    "option3": {
+      "header": "Quality operation",
+      "line1": "Analysis of quality problems, investigation of faults, characterization of preventive corrective activity.",
+      "line2": "Defining management and control goals and indicators according to the organization's activity.",
+      "line3": "Assistance in documenting the annual management survey.",
+      "line4": "Characterization and performance of internal tests.",
+      "line5": "Costs of non-quality - measurement / analysis and definition of corrective / preventive activity.",
+      "line6": "Performing a risk survey and PROCESS VALIDATION process definitions.",
+      "line7": "Characterization of acceptance audit requirements according to product requirements / customer requirements and production standards."
+    },
+    "option4": {
+      "header": "Quality management of suppliers / subcontractors",
+      "line1": "Characterization of outsourcing definitions for subcontractors.",
+      "line2": "Supplier certification tests in Israel and abroad.",
+      "line3": "Characterization of FAI processes.",
+      "line4": "Quality training for suppliers."
+    },
+    "option5": {
+      "header": "Professional trainings",
+      "line1": "Employee training to the IPC 600 standard - rejection and acceptance criteria for printed circuits.",
+      "line2": "Consulting and authorizing workers to the IPC 610 standard - rejection and acceptance criteria for electronic trains.",
+      "line3": "Internal organizational failure studies and definitions of preventive corrective activities."
+    }
+  },
+  "cards": {
+    "c1": {
+      "header": "ISO 9001-2015",
+      "content": "Establishing quality systems, QA management & maintenance"
+    },
+    "c2": {
+      "header": "Internal audits",
+      "content": "According to ISO standards / customer's requirements"
+    },
+    "c3": {
+      "header": "Supplier's qualification audits in Israel and abroad",
+      "content": "Supplier's onsite Audits & Monitoring"
+    },
+    "c4": {
+      "header": "CAPA",
+      "content": "Corrective & preventive actions , effectiveness management"
+    },
+    "c5": {
+      "header": "Supply chain quality management",
+      "content": "Supplier's Monitoring"
+    },
+    "c6": {
+      "header": "Trainings",
+      "content": "Training management"
+    },
+    "c7": {
+      "header": "Costs of non-quality",
+      "content": "Monitoring & Mesuraments"
+    },
+    "c8": {
+      "header": "Risk Managements",
+      "content": "Defining & Monitoring risk assesmsnt"
+    },
+    "c9": {
+      "header": "Customer's satisfaction",
+      "content": "Defining & Monitoring"
+    },
+    "c10": {
+      "header": "Sustianability",
+      "content": "Establishing system, training and Monitoring"
+    },
+    "c11": {
+      "header": "ISO 13485",
+      "content": "Medical Devices System's monitoring"
+    },
+    "c12": {
+      "header": "IATF 16949",
+      "content": "Automotive Srandards Monitoring"
+    },
+    "c13": {
+      "header": "AS9100",
+      "content": "Airospace & Military standards"
+    },
+    "c14": {
+      "header": "IPC Standards",
+      "content": "Training & qualification"
+    }
+  }
+}

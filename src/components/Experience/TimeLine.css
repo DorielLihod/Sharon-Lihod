@@ -1,0 +1,16 @@
+.MainExperience {
+    margin: auto;
+    width: 80%;
+    padding: auto;
+    text-align: center;
+}
+
+.textEperience{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: large;
+}
+
+.sectionDetails {
+    background-color: #caf0f8;
+}
