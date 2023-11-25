@@ -3,6 +3,7 @@ import "./About.css";
 import { useTranslation } from "react-i18next";
 
 import sharonImage from "../../../public/imgSharon.jpeg";
+import { Carousel } from "../Carousel/Carousel";
 
 const About = () => {
   const [t, i18n] = useTranslation("global");
@@ -38,7 +39,7 @@ const About = () => {
 
       {/*line 2 */}
       <div className="container">
-        <div className="row row1">
+        <div className="row row1 div-gallery">
           <div className="col-sm textAbout-p1">
             <div className="text-p1">
               <p>{t("about-page.p3")}</p>
@@ -51,12 +52,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-sm divImage">
-            <img
-              src={sharonImage}
-              className=" mx-auto d-block sharonImage"
-              alt="Sharon Lihod"
-              title="Sharon Lihod"
-            />
+            <Carousel />
           </div>
         </div>
       </div>

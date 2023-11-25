@@ -9,6 +9,13 @@
     padding-bottom: 2%;
 }
 
+.div-gallery{
+    background-color: #80d2ff;
+    border-radius: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .row1 .divImage{
     opacity: 1.0;
     align-items: center;
@@ -33,7 +40,7 @@
 
 .textAbout-p1{
     font-size: large;
-    padding: 4%;
+    padding: 5%;
     align-items: center;
     vertical-align: middle;
 }
