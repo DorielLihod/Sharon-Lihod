@@ -8,14 +8,12 @@ import c2 from "../../../public/Certification/c2.jpg";
 import c3 from "../../../public/Certification/c3.jpg";
 import c4 from "../../../public/Certification/c4.jpg";
 import c5 from "../../../public/Certification/c5.jpg";
-import c6 from "../../../public/Certification/c6.jpg";
 import c7 from "../../../public/Certification/c7.jpg";
 import c8 from "../../../public/Certification/c8.jpg";
 import c9 from "../../../public/Certification/c9.jpg";
 import c10 from "../../../public/Certification/c10.jpg";
-
 export const Carousel = () => {
-  const data = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10];
+  const data = [c1, c2, c3, c4, c5, c7, c8, c9, c10];
   const [slide, setSlide] = useState<number>(0);
 
   const nextSlide = () => {

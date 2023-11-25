@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 300px;
-    height: 400px;
+    height: 450px;
 }
 
 .slide {
@@ -24,6 +24,10 @@
     width: 2rem;
     height: 2rem;
     color: white;
+}
+
+.arrow :hover{
+    opacity: 0.8;
 }
 
 .arrow:hover {
