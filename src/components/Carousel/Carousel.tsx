@@ -13,7 +13,7 @@ import c8 from "../../../public/Certification/c8.jpg";
 import c9 from "../../../public/Certification/c9.jpg";
 import c10 from "../../../public/Certification/c10.jpg";
 export const Carousel = () => {
-  const data = [c1, c2, c3, c4, c5, c7, c8, c9, c10];
+  const data = [c2, c1, c3, c4, c5, c7, c8, c9, c10];
   const [slide, setSlide] = useState<number>(0);
 
   const nextSlide = () => {
