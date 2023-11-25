@@ -75,7 +75,7 @@ const ContactComponent = () => {
               </div>
               <p className="text-under-icon">
                 {t("contact.details2")}
-                <a href="tel:0527293377">0527293377</a>
+                <a href="tel:0524899155">0524899155</a>
               </p>
             </div>
             <div className="col-sm icon-text">
