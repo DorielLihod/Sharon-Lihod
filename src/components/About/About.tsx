@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./About.css";
 import { useTranslation } from "react-i18next";
 
-import sharonImage from "../../../public/imgSharon.jpeg";
+import sharonImage from "../../../public/SharonImg.jpg";
 import img3 from "../../../public/image3.png";
 import { Carousel } from "../Carousel/Carousel";
 
